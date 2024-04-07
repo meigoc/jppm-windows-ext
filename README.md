@@ -8,6 +8,29 @@
 
 ## Changelog
 ```php
+--- 2.5 ---
+// ВСЕ ЕЩЁ РАЗРАБАТЫВАЕТСЯ, ТО ЧТО СДЕЛАНО НИЖЕ ЭТО ДОБАВЛЕНО В БЕТА-ВЕРСИЮ, КАЧАТЬ ТУТ: https://github.com/meigoc/jppm-windows-ext/releases/tag/2.5-beta
+[Add] Новый класс QuickAPI (только DFFI)
+[Add] QuickAPI::MakeScreenshot();
+[Add] QuickAPI::GetCursorPos();
+
+--- 2.4 ---
+[Del] OS::getArchitecture() // уже существует + данный метод оказался не рабочий
+[Change] изменена информация о пакете (скриншот ниже)
+[Add] новый класс VideoDriver
+[Add] VideoDriver::getName() // Получить полное название видеокарты
+[Add] VideoDriver::BitsPerPixel() // Получить биты на пиксели
+[Add] VideoDriver::CurrentHorizontalResolution() // Получить горизонтальное разрешение экрана
+[Add] VideoDriver::CurrentVerticalResolution() // Получить вертикальное разрешение экрана
+[Add] VideoDriver::getDriverDate() // Получить дату драйвера
+[Add] VideoDriver::getDriverVersion() // Получить версию драйвера
+[Add] VideoDriver::getCurrentRefreshRate() // Получить герцовку монитора
+[Add] VideoDriver::getMinRefreshRate() // Получить минимальную герцовку монитора
+[Add] VideoDriver::getMaxRefreshRate() // Получить максимальную герцовку монитора
+[Add] VideoDriver::getStatus() // Получить статус видеокарты (например: OK)
+[Add] VideoDriver::getVideoModeDescription() // Получить описание видеокарты
+[Add] VideoDriver::getCurrentNumberOfColors() // Получить текущее кол-во цветов
+
 --- 2.3 ---
 [Change] Изменена информация пакета .dnbundle
 [Add] Класс OS
