@@ -44,7 +44,9 @@
 [Add] OS::getName() // Краткое имя, например: Windows 11
 
 --- 2.2 ---
-?
+[Add] Windows::print() // Отправить файл на печать. Используется принтер по умолчанию. Необходимо наличие установленного пакета офиса.
+[Add] Windows::getFileMeta() 
+[Fix] Windows::getPrinter() // Функция работала некорректно
 
 --- 2.1.1 ---
 [Add] Windows::getSystemDrive()
