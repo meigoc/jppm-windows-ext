@@ -1,3 +1,5 @@
+# Поддержка JPPM будет добавлена тогда, когда поднимут JPPM!
+
 [
 ![logo](https://github.meigo.live/snapshot.png)
 ](https://meigo.net/)
