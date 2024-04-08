@@ -9,10 +9,45 @@
 ## Changelog
 ```php
 --- 2.5 ---
-// ВСЕ ЕЩЁ РАЗРАБАТЫВАЕТСЯ, ТО ЧТО СДЕЛАНО НИЖЕ ЭТО ДОБАВЛЕНО В БЕТА-ВЕРСИЮ, КАЧАТЬ ТУТ: https://github.com/meigoc/jppm-windows-ext/releases/tag/2.5-beta
-[Add] Новый класс QuickAPI (только DFFI)
+[Change] изменена информация о пакете (скриншот ниже)
+[Add] проверка обновлений
+[Add] новый класс CPU
+[Add] новый класс QuickAPI (только DFFI)
+[Add] Встроен пакет DFFI
+[Add] CPU::AddressWidth => 64
+[Add] CPU::Architecture => 9
+[Add] CPU::AssetTag => To Be Filled By O.E.M.
+[Add] CPU::Caption => Intel64 Family 6 Model 158 Stepping 11
+[Add] CPU::CpuStatus => 1
+[Add] CPU::CreationClassName => Win32_Processor
+[Add] CPU::CurrentClockSpeed => 3600
+[Add] CPU::CurrentVoltage => 10
+[Add] CPU::Description => Intel64 Family 6 Model 158 Stepping 11
+[Add] CPU::DeviceID => CPU0
+[Add] CPU::Level => 6
+[Add] CPU::LoadPercentage => 7
+[Add] CPU::Manufacturer => GenuineIntel
+[Add] CPU::MaxClockSpeed => 3600
+[Add] CPU::Name => Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz
+[Add] CPU::NumberOfCores => 4
+[Add] CPU::NumberOfEnabledCore => 4
+[Add] CPU::NumberOfLogicalProcessors => 4
+[Add] CPU::PartNumber => To Be Filled By O.E.M.
+[Add] CPU::PowerManagementSupported => FALSE
+[Add] CPU::ProcessorId => BFEBFBFF000906EB
+[Add] CPU::ProcessorType => 3
+[Add] CPU::Role => CPU
+[Add] CPU::SerialNumber => To Be Filled By O.E.M.
+[Add] CPU::SocketDesignation => LGA1151
+[Add] CPU::Status => OK
+[Add] CPU::StatusInfo => 3
+[Add] CPU::ThreadCount => 4
+[Add] CPU::VirtualizationFirmwareEnabled => FALSE
+[Add] CPU::VMMonitorModeExtensions => FALSE
 [Add] QuickAPI::MakeScreenshot();
 [Add] QuickAPI::GetCursorPos();
+[Add] QuickAPI::SetCursorPos();
+[Add] QuickAPI::MessageBoxA(); // только англ.символы
 
 --- 2.4 ---
 [Del] OS::getArchitecture() // уже существует + данный метод оказался не рабочий
