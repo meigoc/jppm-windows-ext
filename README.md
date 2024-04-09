@@ -8,6 +8,15 @@
 
 ## Changelog
 ```php
+--- 2.6 BETA-версия, в разработке! ---
+// уже можно скачать в релизах
+
+[Add] Новый класс WindowsTime для работы с часовыми поясами в Windows. Это является аналогом tzutil.exe в windows. Класс работает на версии ОС Windows 7 и выше!
+[Add] WindowsTime::get() // Получить ID текущего часового пояса
+[Add] WindowsTime::list() // Получить список всех ID часовых поясов
+[Add] WindowsTime::set("Russian Standard Time") // Установить часовой пояс по ID (Например: Russian Standard Time)
+[Add] WindowsTime::set_dstoff("Pacific Standard Time") // Суффикс _dstoff отключает корректировку перехода на летнее время для данного часового пояса (если применимо)
+
 --- 2.5 ---
 [Change] изменена информация о пакете (скриншот ниже)
 [Add] проверка обновлений
