@@ -5,6 +5,7 @@
 ](https://meigo.net/)
 
 - [**Пакет расширений для DevelNext**](https://github.com/meigoc/jppm-windows-ext/releases/)
+- [**JPPM api-docs**](api-docs/README.md)
 
 ## Changelog
 ```php
