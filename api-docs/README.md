@@ -3,13 +3,14 @@
 ---
 
 ## windows
-> version 2.1.1, created by JPPM.
+> version 2.6, created by JPPM.
+> ⚠️ Api-docs новых классов находится в разработке!
 
 Пакет для взаимодействия с API Windows
 
 ### Install
 ```
-jppm add windows@git+https://github.com/TsSaltan/jphp-windows-ext
+jppm add windows@git+https://github.com/meigoc/jppm-windows-ext
 ```
 
 ### API
@@ -27,7 +28,15 @@ jppm add windows@git+https://github.com/TsSaltan/jphp-windows-ext
 - [`Windows`](classes/bundle/windows/Windows.md)
 - [`WindowsException`](classes/bundle/windows/WindowsException.md)- _Класс исключения, выбрасываемого функциями пакета Windows_
 - [`WindowsScriptHost`](classes/bundle/windows/WindowsScriptHost.md)- _Методы класса позволяют вызывать функции API Windows, выполнять системные скрипты_
+- [`WindowsServices`](classes/bundle/windows/WindowsServices.md)- _Класс для работы с службами в Windows_
+- [`WindowsTime`](classes/bundle/windows/WindowsTime.md)- _Класс для работы с часовыми поясами в Windows. Это является аналогом tzutil.exe в windows. Класс работает на версии ОС Windows 7 и выше!_
 - [`Wlan`](classes/bundle/windows/Wlan.md)- _Wireless lan_
+
+#### `bundle\windows` (другое)
+
+- [`CPU`](classes/bundle/windows/CPU.md)- _Класс для работы с CPU_
+- [`VideoDriver`](classes/bundle/windows/VideoDriver.md)- _Класс для работы с VideoDriver_
+- [`OS`](classes/bundle/windows/OS.md)- _Класс для работы с OS_
 
 #### `bundle\windows\result`
 
