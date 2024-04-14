@@ -1,31 +1,32 @@
-# Поддержка JPPM будет добавлена тогда, когда поднимут JPPM!
+# Windows Bundle 2.6 (!ВЫШЕЛ!)
 
 [
 ![logo](https://github.meigo.live/snapshot.png)
 ](https://meigo.net/)
 
+- [**Discord-сервер**](https://discord.gg/CzjhTt2XBz)
+- [**Поддержать разработчика**](https://www.donationalerts.com/r/meigostudios)
 - [**Пакет расширений для DevelNext**](https://github.com/meigoc/jppm-windows-ext/releases/)
 - [**JPPM api-docs**](api-docs/README.md)
 
 ## Changelog
 ```php
---- 2.6 BETA-версия, в разработке! ---
-// уже можно скачать в релизах
-// ниже добавлено в билде 04092240_24
+--- 2.7 ---
+// Разработка начата! 2.7 будет обновлением которое пофиксит все баги и ошибки в старых и новых версиях.
+
+--- 2.6 ---
+[Change] Изменена структура пакета
 [Add] Новый класс WindowsTime для работы с часовыми поясами в Windows. Это является аналогом tzutil.exe в windows. Класс работает на версии ОС Windows 7 и выше!
 [Add] WindowsTime::get() // Получить ID текущего часового пояса
 [Add] WindowsTime::list() // Получить список всех ID часовых поясов
 [Add] WindowsTime::set("Russian Standard Time") // Установить часовой пояс по ID (Например: Russian Standard Time)
 [Add] WindowsTime::set_dstoff("Pacific Standard Time") // Суффикс _dstoff отключает корректировку перехода на летнее время для данного часового пояса (если применимо)
-// ниже добавлено в билде 04101954_24 (НОВОЕ)
-[Change] Изменена структура пакета
 [Add] Новый класс WindowsServices для работы с службами в Windows.
 [Add] WindowsServices::get("AnyTextID") // Получить информацию о службе Windows по ID
 [Add] WindowsServices::getAll // Получить информацию о всех службах Windows 
 [Add] WindowsServices::delete("AnyTextID") // Удалить службу Windows по ID
 [Add] WindowsServices::set // Установить необходимые значения службе Windows по ID
 [Add] WindowsServices::new // Создать службу Windows
-// Функции уже есть, но работают нестабильно:
 [Add] Windows::disableMonitor() // Выключить монитор
 [Add] Windows::LogOff() // Выход из системы. Останавливает все процессы, связанные с контекстом безопасности текущего пользователя, завершает его сеанс  и отображает диалоговое окно входа в систему.
 
