@@ -9,9 +9,16 @@
 - [**Пакет расширений для DevelNext**](https://github.com/meigoc/jppm-windows-ext/releases/)
 - [**JPPM api-docs**](api-docs/README.md)
 
+## Огромное спасибо!
 ![imgonline-com-ua-Resize-xFdnFjxQgKj](https://github.com/meigoc/jppm-windows-ext/assets/73817505/0aa0b320-2785-4e7c-ac94-7d36abca397a) Спасибо за 5 звезд!
 
-
+## To do (в планах)
+- ~~добавить WindowsTime в api-docs~~ [**Тут**](api-docs/classes/bundle/windows/WindowsTime.md)
+- дописать api-docs до версии 2.7
+- сделать wiki до версии 2.7
+- добавить встроенную работу с сторонними программами ввиде Excel, Word и т.п.
+- добавить BETA-функционал
+- и другое...
 
 ## Changelog
 ```php
