@@ -7,7 +7,11 @@
 - [**Discord-сервер**](https://discord.gg/CzjhTt2XBz)
 - [**Поддержать разработчика**](https://www.donationalerts.com/r/meigostudios)
 - [**Пакет расширений для DevelNext**](https://github.com/meigoc/jppm-windows-ext/releases/)
+
+## Документация
 - [**JPPM api-docs**](api-docs/README.md)
+- [**Wiki (в разработке)**](#)
+- [**Примеры, Проекты... (в разработке)**](#)
 
 ## Огромное спасибо!
 ![imgonline-com-ua-Resize-xFdnFjxQgKj](https://github.com/meigoc/jppm-windows-ext/assets/73817505/0aa0b320-2785-4e7c-ac94-7d36abca397a) Спасибо за 5 звезд!
