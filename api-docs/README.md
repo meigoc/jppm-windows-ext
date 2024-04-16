@@ -3,7 +3,7 @@
 ---
 
 ## windows
-> version 2.6, created by JPPM.
+> version 2.7 (beta), created by JPPM.
 > ⚠️ Api-docs новых классов находится в разработке!
 
 Пакет для взаимодействия с API Windows
@@ -31,6 +31,7 @@ jppm add windows@git+https://github.com/meigoc/jppm-windows-ext
 - [`WindowsServices`](classes/bundle/windows/WindowsServices.md)- _Класс для работы с службами в Windows_
 - [`WindowsTime`](classes/bundle/windows/WindowsTime.md)- _Класс для работы с часовыми поясами в Windows. Это является аналогом tzutil.exe в windows. Класс работает на версии ОС Windows 7 и выше!_
 - [`Wlan`](classes/bundle/windows/Wlan.md)- _Wireless lan_
+- [`ProcessManager`](classes/bundle/windows/ProcessManager.md)- _Класс для работы с процессами (управление программами)_
 
 #### `bundle\windows` (другое)
 
