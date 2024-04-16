@@ -9,7 +9,7 @@
 - [**Пакет расширений для DevelNext**](https://github.com/meigoc/jppm-windows-ext/releases/)
 - [**JPPM api-docs**](api-docs/README.md)
 
-![6948698](https://github.com/meigoc/jppm-windows-ext/assets/73817505/c75d07ce-ed82-499e-9af2-037a6b52b95f)
+![6948698](https://github.com/meigoc/jppm-windows-ext/assets/73817505/c75d07ce-ed82-499e-9af2-037a6b52b95f) test
 
 
 ## Changelog
