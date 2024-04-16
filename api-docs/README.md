@@ -10,7 +10,7 @@
 
 ### Install
 **JPPM:**
-```php
+```
 jppm add windows@git+https://github.com/meigoc/jppm-windows-ext
 ```
 **DevelNext:**
