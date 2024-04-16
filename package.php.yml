@@ -1,0 +1,45 @@
+name: windows
+version: 2.7
+description: Форк пакета от солтана, наилучший пакет для работы с WIndows API.
+
+plugins:
+  - Hub
+  - Doc
+
+sources:
+  - src
+
+doc:
+  stub-dirs: ['./src/']
+  langs: {en: English, ru: Русский}
+
+devDeps:
+  dn-bundle-plugin: '*'
+
+config:
+  ignore:
+  - /*.iml
+  - /.git/**
+  - /package.hub.yml
+  - /.gitignore
+  - /gradle/**
+  - /**.phpintel
+  - /bundle/**
+  - /src-bundle/**
+  - /build/**
+  - /vendor/**
+  - /jars/**
+  - /src-jvm/**
+  - /.gitignore
+  - /**.gradle
+  - /gradlew
+  - /gradlew.**
+
+develnext-bundle:
+  version: 2.7
+  name: windows
+  description: Форк пакета от солтана, наилучший пакет для работы с WIndows API. 
+  author: meigo.net
+  icon: "develnext/bundle/windows/windows32.png"
+  group: "system"
+  class: "develnext\\bundle\\windows\\WindowsBundle"
