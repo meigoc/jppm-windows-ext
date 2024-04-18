@@ -28,9 +28,10 @@
 ```php
 --- 2.7 ---
 // Разработка начата! 2.7 будет обновлением которое пофиксит все баги и ошибки в старых и новых версиях.
-[Add] Новый класс ProcessManager
-О классе читать тут: https://github.com/meigoc/jppm-windows-ext/blob/main/api-docs/classes/bundle/windows/ProcessManager.md
-[Fix] некоторые исправления
+[Add] Добавлен номер сборки (билд) в описание пакета. 
+[Add] Новый класс ProcessManager // О классе читать тут: https://github.com/meigoc/jppm-windows-ext/blob/main/api-docs/classes/bundle/windows/ProcessManager.md
+[Fix] Windows::disableMonitor(); // Теперь работает. Но есть баг, может зависать программа из-за этого выключение монитора может происходить 2 раза.
+[Fix] Другие небольише фиксы/исправления.
 
 --- 2.6 ---
 [Change] Изменена структура пакета
