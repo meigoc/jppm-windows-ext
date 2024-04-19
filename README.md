@@ -1,5 +1,5 @@
 # Windows Bundle 2.6 (!ВЫШЕЛ!)
-(разработка 2.7 завершена на 25%)
+(разработка 2.7 завершена на 51%)
 
 [
 ![logo](https://github.meigo.live/snapshot.png)
@@ -29,10 +29,22 @@
 ```php
 --- 2.7 ---
 // Разработка начата! 2.7 будет обновлением которое пофиксит все баги и ошибки в старых и новых версиях.
+// готово на 51%
+[Change] Работа Windows::getSystem32path() и Windows::getSystem32($path) немного изменена, рекомендуем ознакомиться с описанием функций. 
 [Add] Добавлен номер сборки (билд) в описание пакета. 
 [Add] Новый класс ProcessManager // О классе читать тут: https://github.com/meigoc/jppm-windows-ext/blob/main/api-docs/classes/bundle/windows/ProcessManager.md
+[Add] Обновление Startup::add() // добавлена поддержка иконки и аргументов командной строки
+[Add] Windows::createShortcut() - Теперь поддерживает кастомный путь до иконки и аргументы командной строки
+[Add] Добавлено описание функции Registry::parseAnswer()
+[Add] Windows::getWindowsPath() // Путь к папке, где установлена Windows
+[Add] Windows::getSystem32path() // Путь к системной папке windows\system32
+[Add] Windows::getSystem32($path) // Путь к файлу папке windows\system32
 [Fix] Windows::disableMonitor(); // Теперь работает. Но есть баг, может зависать программа из-за этого выключение монитора может происходить 2 раза.
 [Fix] Другие небольшие фиксы/исправления.
+[Fix] Registry::read() // Исправление получения значения реестра для JPHP 1.0.3 (7.1.99) 
+[Fix] Windows::getSystemDrive()
+[Fix] Windows::getSysNative($path) // Фикс путь sysnative
+[Fix] Windows::runAsAdmin() - Добавлена поддержка exe-файлов. Теперь нормально работает, если аргументов нет. Если их нет, для Start-Process не передается -ArgumentList
 
 --- 2.6 ---
 [Change] Изменена структура пакета
