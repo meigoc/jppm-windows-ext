@@ -1,4 +1,5 @@
 # Windows Bundle 2.6 (!ВЫШЕЛ!)
+(разработка 2.7 завершена на 25%)
 
 [
 ![logo](https://github.meigo.live/snapshot.png)
