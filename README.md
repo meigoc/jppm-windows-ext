@@ -1,5 +1,5 @@
 # Windows Bundle 2.6 (!ВЫШЕЛ!)
-(разработка 2.7 завершена на 51%)
+(разработка 2.7 завершена на 67%)
 
 [
 ![logo](https://github.meigo.live/snapshot.png)
@@ -29,7 +29,8 @@
 ```php
 --- 2.7 ---
 // Разработка начата! 2.7 будет обновлением которое пофиксит все баги и ошибки в старых и новых версиях.
-// готово на 51%
+// готово на 67%
+[Change] libs.zip теперь содержат весь исходник пакета
 [Change] Работа Windows::getSystem32path() и Windows::getSystem32($path) немного изменена, рекомендуем ознакомиться с описанием функций. 
 [Add] Добавлен номер сборки (билд) в описание пакета. 
 [Add] Новый класс ProcessManager // О классе читать тут: https://github.com/meigoc/jppm-windows-ext/blob/main/api-docs/classes/bundle/windows/ProcessManager.md
@@ -39,6 +40,12 @@
 [Add] Windows::getWindowsPath() // Путь к папке, где установлена Windows
 [Add] Windows::getSystem32path() // Путь к системной папке windows\system32
 [Add] Windows::getSystem32($path) // Путь к файлу папке windows\system32
+[Add] добавлены классы для работы с вебкамерой:
+[Add] UXWebcamView
+[Add] WebcamDiscoveryEvent
+[Add] WebcamMotionEvent
+[Add] Webcam
+[Add] WebcamMotionDetector
 [Fix] Windows::disableMonitor(); // Теперь работает. Но есть баг, может зависать программа из-за этого выключение монитора может происходить 2 раза.
 [Fix] Другие небольшие фиксы/исправления.
 [Fix] Registry::read() // Исправление получения значения реестра для JPHP 1.0.3 (7.1.99) 
