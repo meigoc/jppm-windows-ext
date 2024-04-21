@@ -1,5 +1,4 @@
-# Windows Bundle 2.6 (!ВЫШЕЛ!)
-(разработка 2.7 завершена на 67%)
+# Windows Bundle 2.7 (!ВЫШЕЛ!)
 
 [
 ![logo](https://github.meigo.live/snapshot.png)
@@ -21,15 +20,13 @@
 - ~~добавить WindowsTime в api-docs~~ [**Тут**](api-docs/classes/bundle/windows/WindowsTime.md)
 - дописать api-docs до версии 2.7
 - сделать wiki до версии 2.7
-- добавить встроенную работу с сторонними программами ввиде Excel, Word и т.п.
+- ~~добавить встроенную работу с сторонними программами ввиде Excel~~
 - добавить BETA-функционал
 - и другое...
 
 ## Changelog
 ```php
 --- 2.7 ---
-// Разработка начата! 2.7 будет обновлением которое пофиксит все баги и ошибки в старых и новых версиях.
-// готово на 67%
 [Change] libs.zip теперь содержат весь исходник пакета
 [Change] Работа Windows::getSystem32path() и Windows::getSystem32($path) немного изменена, рекомендуем ознакомиться с описанием функций. 
 [Add] Добавлен номер сборки (билд) в описание пакета. 
@@ -46,6 +43,18 @@
 [Add] WebcamMotionEvent
 [Add] Webcam
 [Add] WebcamMotionDetector
+[Add] класс для работы с Excel
+[Add] Excel::openWorkbook()
+[Add] Excel::build
+[Add] Excel::version
+[Add] Excel::windowstate
+[Add] Excel::visible
+[Add] Excel::path
+[Add] Excel::value
+[Add] Excel::setwindowstate() // Установить вид/дизайн окна (xlMaximized, xlNormal, xlMinimized)
+[Add] Excel::setheight()
+[Add] Excel::setweight()
+[Add] Excel::register()
 [Fix] Windows::disableMonitor(); // Теперь работает. Но есть баг, может зависать программа из-за этого выключение монитора может происходить 2 раза.
 [Fix] Другие небольшие фиксы/исправления.
 [Fix] Registry::read() // Исправление получения значения реестра для JPHP 1.0.3 (7.1.99) 
