@@ -14,18 +14,25 @@
 - [**Примеры, Проекты... (в разработке)**](#)
 
 ## Огромное спасибо!
-![imgonline-com-ua-Resize-xFdnFjxQgKj](https://github.com/meigoc/jppm-windows-ext/assets/73817505/0aa0b320-2785-4e7c-ac94-7d36abca397a) Спасибо за 5 звезд!
+![imgonline-com-ua-Resize-xFdnFjxQgKj](https://github.com/meigoc/jppm-windows-ext/assets/73817505/0aa0b320-2785-4e7c-ac94-7d36abca397a) Спасибо за 6 звезд!
 
 ## To do (в планах)
 - ~~добавить WindowsTime в api-docs~~ [**Тут**](api-docs/classes/bundle/windows/WindowsTime.md)
-- дописать api-docs до версии 2.7
-- сделать wiki до версии 2.7
+- дописать api-docs до версии 2.8
+- сделать wiki до версии 2.8
 - ~~добавить встроенную работу с сторонними программами ввиде Excel~~
 - добавить BETA-функционал
 - и другое...
 
 ## Changelog
 ```php
+# --- 2.8 public beta #1 --- (В РАЗРАБОТКЕ!)
+[Add] В класс WindowsScriptHost (WSH) был добавлен аналог команды typeperf в windows. (99% действий требует права
+администратора, idk why), этот класс можно использовать для получения потоков в системе, загруженности в процентах процессора, и
+много другой интересной информации. В будущем выпустим документацию под typeperf.
+[Del] Удалены все классы связанные с веб-камерой из-за неработоспособности (-1mb лишнего места)
+[Del] из windows.pkg удалена строчка bundle\windows\ui\FpsObject (несуществующий путь)
+
 --- 2.7 ---
 [Change] libs.zip теперь содержат весь исходник пакета
 [Change] Работа Windows::getSystem32path() и Windows::getSystem32($path) немного изменена, рекомендуем ознакомиться с описанием функций. 
